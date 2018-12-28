@@ -1,3 +1,23 @@
+As specified in the instructions, this project was designed and developed within one working day. 
+Design Specifications : This project uses React framework with jest for testing. Some of the assumptions that were involved are:
+
+1.The user is allowed to select one sequence function at a time. That is, the functions are not supposed to be grouped together.
+2.Based on the selected function, the output is shown one value at a time until the next button is pressed.
+3. Most of the functions that are coded are infinite series.
+4. In case of Range function, the start and step values are accepted and then the program proceeds from that point.
+5. Due to the time limits, the functions coded are : 
+
+function factorialSeq () {S...} // 1, 1, 2, 6, 24, ...
+function fibonacciSeq () {...} // 1,	1, 2, 3, 5, 8, 13, ... 
+function rangeSeq (start, step) {...} // rangeSeq(1, 2) -> 1, 3, 5, 7, ...
+function primeSeq () {...} // 2,	3, 5, 7, 11, 13, ...
+
+6. Only a few test cases are added to App.test.js as a prototype and these are by no means complete.
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

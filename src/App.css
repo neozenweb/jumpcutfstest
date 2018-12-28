@@ -9,7 +9,6 @@ body, .app {
 }
 
 
-
 .App {
   text-align: center;
     margin-left:20%;
@@ -74,9 +73,40 @@ body, .app {
     margin-top:10px;
     margin-bottom:10px;
 }
+.startnum{
+    display:none;
+    border-style:double;
+    width:100px;
+    height:auto;
+    background:white;
+    color:blue;
+    border-color:red;
+   margin-top:10px;
+    margin-bottom:10px;
+}
+.stepnum{
+    display:none;
+    border-style:double;
+    width:100px;
+    height:auto;
+    background:white;
+    color:blue;
+    border-color:red;
+   margin-top:10px;
+    margin-bottom:10px;
+}
 .nextBtn{
     display:none;
     color:white;
+    margin-top:10px;
+    margin-bottom:10px;
+  
+   }
+.calcBtn{
+    display:none;
+    color:red;
+    width:auto;
+    height:auto;
     margin-top:10px;
     margin-bottom:10px;
   
